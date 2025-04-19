@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "qRestPRO-web",
+    "client-7681": "client-7681",
+    "qalar": "qRestPRO-web",
+    "staging": "qRestPRO-f7bc9",
+    "s": "qRestPRO-web"
+  },
+  "targets": {},
+  "etags": {}
+}

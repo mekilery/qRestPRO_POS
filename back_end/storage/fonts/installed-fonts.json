@@ -1,0 +1,29 @@
+{
+    "open sans": {
+        "normal": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/open_sans_normal_e3f9da90edb379e243cceabb2fdb3f0a",
+        "600": "open_sans_600_2a60ebfba7bda514848a0bbbd15b621a"
+    },
+    "the-icon-of": {
+        "normal": "the_icon_of_normal_176589b77a42bb786ee51b3dcbb7b5f6"
+    },
+    "roboto": {
+        "italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_italic_ddc798b08272d4e38b2814a9416af97b",
+        "normal": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_normal_744a525d3dfcb8e50d148956703b6b68",
+        "500": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_500_41ea8fd5770bc278dbd15851922ff806",
+        "bold": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_bold_8c645f7f06cc7058298670914de0e599",
+        "100_italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_100_italic_fc13b8f8feee89c41c95bf27309dcb8b",
+        "200_italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_200_italic_5d083ec1d93e144f6be1bc19ea3b2b81",
+        "300_italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_300_italic_d54a1bf1f9b064b835ac1d6bec9ebec1",
+        "500_italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_500_italic_f8306c9019d1b34cbc31af36a98bf42b",
+        "600_italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_600_italic_a7abeebcf719e36fb7bafad3deb56c6b",
+        "bold_italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_bold_italic_fc1d968bd454a4f0ad1ea1fa2c6fb96d",
+        "800_italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_800_italic_c9ada053d172d207eeb208102a56087b",
+        "900_italic": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_900_italic_8edcce9844866f9d8e9b3db832880d0e",
+        "100": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_100_c639033bf7f18123515bf2c8d5f6e5f6",
+        "200": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_200_0f273212208bed4941ccd029ffa4f195",
+        "300": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_300_7f0f040993bb35f67d8431439cbf7385",
+        "600": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_600_c2f567fe4d78fd7d37c4d5c2c34407bd",
+        "800": "\/opt\/lampp\/htdocs\/qRestPRO-admin\/storage\/fonts\/\/roboto_800_97cedbba6f9501c1fc70065137904ee6",
+        "900": "roboto_900_8c2f973c7818bcf66c70e9cce4eda0d4"
+    }
+}
