@@ -1,4 +1,30 @@
-{
-    "IDX.aI.enableInlineCompletion": true,
-    "IDX.aI.enableCodebaseIndexing": true
-}
+php
+    public static function twilio($receiver, $otp)
+    {
+        $config = self::get_settings('twilio');
+        $response = 'error';
+        if (isset($config) && $config['status'] == 1) {
+            $message = str_replace("#OTP#", $otp, $config['otp_template']);
+            $sid = $config['sid'];
+            $token = $config['token'];
+            try {
+                $twilio = new Client($sid, $token);
+                // Modify the receiver number format for WhatsApp
+                $twilio->messages
+                    ->create("whatsapp:" . $receiver, // to (WhatsApp format)
+                        array(
+                            // Ensure your Messaging Service SID is configured for WhatsApp,
+                            // or replace with "from" => "whatsapp:<your_twilio_whatsapp_number>"
+                            "messagingServiceSid" => $config['messaging_service_sid'],
+                            "body" => $message
+                        )
+                    );
+                $response = 'success';
+            } catch (\Exception $exception) {
+                // Log the detailed error message for debugging
+                error_log("Twilio WhatsApp Error: " . $exception->getMessage());
+                $response = 'error';
+            }
+        }
+        return $response;
+    }

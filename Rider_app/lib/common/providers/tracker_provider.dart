@@ -3,13 +3,10 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:resturant_delivery_boy/common/models/response_model.dart';
 import 'package:resturant_delivery_boy/common/models/track_model.dart';
 import 'package:resturant_delivery_boy/common/models/api_response_model.dart';
 import 'package:resturant_delivery_boy/common/reposotories/tracker_repo.dart';
-import 'package:resturant_delivery_boy/helper/api_checker_helper.dart';
 
 class TrackerProvider extends ChangeNotifier {
   final TrackerRepo? trackerRepo;

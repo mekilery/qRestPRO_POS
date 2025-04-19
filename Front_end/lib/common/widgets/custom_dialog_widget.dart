@@ -97,6 +97,7 @@ void openDialog(Widget child, {bool isDismissible = true, bool isDialog = false,
     Get.context!,
     Dialog(
       backgroundColor: Colors.transparent,
+      // ignore: deprecated_member_use
       child:   PopScope(child: child, onPopInvoked: (value)=> willPop),
     ),
     dismissible: isDismissible,

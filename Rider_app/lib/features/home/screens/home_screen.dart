@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
 import 'package:provider/provider.dart';
 import 'package:resturant_delivery_boy/common/providers/tracker_provider.dart';
 import 'package:resturant_delivery_boy/common/widgets/custom_asset_image_widget.dart';
